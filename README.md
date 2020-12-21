@@ -118,7 +118,7 @@ to discourage fragile code.
   - cardinality
   - terms
   - significant_terms
-	- significant_text
+  - significant_text
   - histogram
   - top_hits
   - nested
