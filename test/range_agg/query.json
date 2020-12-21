@@ -10,12 +10,12 @@
     }
   },
   "aggs": {
-			"keywords": {
-				"significant_text": {
-					"field": "content",
-					"filter_duplicate_text": true
-				}
-			},
+      "keywords": {
+        "significant_text": {
+          "field": "content",
+          "filter_duplicate_text": true
+        }
+      },
       "w_over_time": {
         "date_histogram": {
           "field": "publish_time",
